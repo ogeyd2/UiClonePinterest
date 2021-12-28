@@ -41,6 +41,10 @@ header {
       &:hover {
         cursor: pointer;
       }
+      &:first-child {
+        background-color: $red;
+        color: $white;
+      }
     }
   }
 }
